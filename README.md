@@ -6,6 +6,6 @@
             srcset="https://raw.githubusercontent.com/xarthurx/xarthurx/main/profile-3d-contrib/day.svg" />
         <img alt="github profile contributions chart" 
             src="https://raw.githubusercontent.com/xarthurx/xarthurx/main/profile-3d-contrib/day.svg"
-            width="80%"/>
+            width="90%"/>
     </picture>
 </p>
