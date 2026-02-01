@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile Theme Variants</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      body {
+        margin: 24px;
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: #f2f2f0;
+        color: #222;
+      }
+      h1 {
+        margin: 0 0 16px;
+        font-size: 22px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: #ffffff;
+        padding: 12px 12px 16px;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+      }
+      .card h2 {
+        margin: 4px 4px 10px;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+        background: #0f0f0f;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Profile Theme Variants (Light/Dark)</h1>
+    <div class="grid">
+      <div class="card"><h2>Nord – Light</h2><img src="nord-light.svg" alt="Nord light" /></div>
+      <div class="card"><h2>Nord – Dark</h2><img src="nord-dark.svg" alt="Nord dark" /></div>
+      <div class="card"><h2>Solarized – Light</h2><img src="solarized-light.svg" alt="Solarized light" /></div>
+      <div class="card"><h2>Solarized – Dark</h2><img src="solarized-dark.svg" alt="Solarized dark" /></div>
+      <div class="card"><h2>Gruvbox – Light</h2><img src="gruvbox-light.svg" alt="Gruvbox light" /></div>
+      <div class="card"><h2>Gruvbox – Dark</h2><img src="gruvbox-dark.svg" alt="Gruvbox dark" /></div>
+      <div class="card"><h2>Rose Pine – Light</h2><img src="rose-pine-light.svg" alt="Rose Pine light" /></div>
+      <div class="card"><h2>Rose Pine – Dark</h2><img src="rose-pine-dark.svg" alt="Rose Pine dark" /></div>
+      <div class="card"><h2>Graphite – Light</h2><img src="graphite-light.svg" alt="Graphite light" /></div>
+      <div class="card"><h2>Graphite – Dark</h2><img src="graphite-dark.svg" alt="Graphite dark" /></div>
+    </div>
+  </body>
+</html>
